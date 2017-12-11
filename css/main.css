@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Crimson Text", serif;
 
   color: #222;
 }
@@ -42,19 +43,16 @@ article header {
   padding-bottom: 1rem;
 }
 
-article p {
+article header p {
   font-style: italic;
   line-height: 1.3;
-}
-
-article > p:last-child {
-  border-bottom: 1px solid #999;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  hanging-punctuation: first;
 }
 
 .quote {
